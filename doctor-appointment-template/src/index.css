@@ -1,0 +1,433 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Pacifico&family=Poppins:wght@200;300;400;500;600&family=Satisfy&family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+:root {
+  --bg-black-900: #f2f2fc;
+  --bg-black-100: #fdf9ff;
+  --bg-black-50: #e8dfec;
+  --bg-black-25: #d9d0dd;
+  --text-black-900: #302e4d;
+  --text-black-700: #58567c;
+  --skin-color: #ec1839;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+/* Edit Scrollbar */
+::-webkit-scrollbar {
+  height: 0;
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--bg-black-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-black-700);
+  border-radius: 5rem;
+}
+
+/* ----- HomePage Header Section ----- */
+
+.homepage {
+  padding: 0 2rem !important;
+}
+
+header {
+  background-color: var(--bg-black-900);
+  min-height: 100vh;
+  width: 100%;
+}
+
+h3.doc-apoint-offers {
+  font-size: 2rem;
+  color: var(--text-black-900);
+  font-family: "Titillium Web";
+  margin: 2rem 0;
+}
+
+.typing {
+  font-size: 2rem;
+  color: var(--skin-color);
+  font-family: "Titillium Web";
+  font-weight: bold;
+}
+
+.main-header-container {
+  display: flex;
+  padding-bottom: 7.5rem;
+}
+
+.homepage .hello {
+  padding-top: 2rem;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: var(--text-black-900);
+}
+
+.homepage .hello span {
+  font-family: "Satisfy";
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--skin-color);
+}
+
+.main-header-para {
+  font-size: 1.2rem;
+  color: var(--text-black-700);
+  margin: 1rem 0 2rem 0;
+  width: 85%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.my-btn {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 30px;
+  color: white;
+  border-radius: 1.5rem;
+  display: inline-block;
+  white-space: nowrap;
+  border: none;
+  background: var(--skin-color);
+  transition: all 0.3s ease;
+}
+
+.my-btn:hover {
+  transform: scale(1.05);
+}
+
+.main-header-section-images .animation {
+  border: 2px solid var(--bg-black-50);
+  border-top-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  border-top-right-radius: 0.35rem;
+  border-bottom-left-radius: 0.35rem;
+  width: 75%;
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+  background-color: var(--bg-black-100);
+  margin: 2rem 0;
+}
+
+/* ----- How Does It Work Section ----- */
+.work-container {
+  width: 80vw;
+  padding: 2rem;
+  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+  margin-top: -3rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  border: 1px solid var(--bg-black-50);
+}
+
+.work-container .main-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.work-container .work-container-sub-div {
+  padding: 0 1rem;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.font-awesome-style {
+  font-size: 2.3rem;
+  color: var(--skin-color);
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: var(--bg-black-100);
+  display: grid;
+  place-items: center;
+  margin: 2rem auto;
+  border: 1px solid var(--bg-black-50);
+}
+
+.paragraph {
+  font-size: 1rem;
+  color: var(--text-black-700);
+  margin: 1rem !important;
+  text-align: justify;
+}
+
+/* ----- How To Use The App Section ----- */
+.common-section {
+  margin: 5rem 0;
+}
+
+.our-services img {
+  width: 70%;
+  height: 80%;
+  margin-top: 8rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0.8rem 0.8rem;
+  border: 1px solid var(--bg-black-50);
+  border-radius: 1.5rem;
+}
+
+.common-section .btn-style {
+  width: 7.5rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  color: var(--skin-color);
+  background-color: transparent;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 0.1rem solid var(--skin-color);
+  transition: 0.25s linear;
+}
+
+.common-section .btn-style:hover {
+  background-color: var(--skin-color);
+  color: white;
+  box-shadow: 0 0.2rem 0.5rem rgba(236, 24, 57, 0.2);
+}
+
+.our-services .main-heading {
+  font-weight: bolder;
+  font-size: 32px;
+  text-transform: capitalize;
+  margin: 3.5rem 0;
+}
+
+.our-services-info {
+  margin-top: 4rem;
+}
+
+.our-services .our-services-number {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 0.1rem solid var(--skin-color);
+  font-size: 1.5rem;
+  color: var(--skin-color);
+  display: grid;
+  place-items: center;
+}
+
+.our-services-data {
+  padding-left: 2rem;
+  margin: 2.5rem 1rem;
+}
+
+.our-services .our-services-data p {
+  margin: 1rem 0;
+}
+
+/* ----- World Class Support Section ----- */
+.our-services-right-side {
+  margin-top: 7.5rem;
+}
+
+.our-services-right-side-content,
+.our-services-list {
+  padding-left: 3rem !important;
+}
+
+/* ----- Appointment Booking Process Section ----- */
+.service-main-container {
+  margin-top: 5rem;
+  padding: 2.5rem 0;
+}
+
+.service-main-container .main-heading {
+  font-size: 32px;
+  margin: 2rem 0;
+  text-transform: capitalize;
+}
+
+.appointment-process-sub-div {
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.16);
+  border: 1px solid var(--bg-black-50);
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.appointment-process-sub-div:hover {
+  background-color: var(--bg-black-100);
+  cursor: pointer;
+  transform: scale(1.025);
+}
+
+.appointment-process-sub-div:hover > .font-awesome-style {
+  background-color: white;
+}
+
+.service-main-container .appointment-process-sub-div .font-awesome-style {
+  text-align: left;
+  margin: 2rem 0;
+}
+
+.service-main-container .appointment-process-sub-div .sub-heading {
+  margin: 1rem;
+}
+
+@media (min-width: 1400px) {
+  .service-container .col-xxl-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .service-container .col-lg-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: 2.5rem auto;
+  }
+}
+
+/* ----- FAQs - Accordion Section ----- */
+.faq-section {
+  padding: 3rem;
+}
+
+.faq-section .faq-heading {
+  text-align: left;
+  color: var(--skin-color);
+}
+
+.accordion .item {
+  color: var(--text-black-700);
+  background-color: var(--bg-black-100);
+  border: 1px solid var(--bg-black-50);
+  border-radius: 1.5rem;
+}
+
+.accordion .item .accordion-header button {
+  box-shadow: none;
+  font-weight: 700;
+  color: var(--text-black-900);
+  background-color: var(--bg-black-100);
+}
+
+.accordion .item .accordion-body {
+  border-top: 1px solid var(--bg-black-50);
+  margin: 0 1rem;
+}
+
+/* ----- Common Classes Section ----- */
+
+.section-title {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin: 1.5rem 0 !important;
+}
+
+.section-title h2 {
+  font-size: 40px;
+  color: var(--text-black-900);
+  font-weight: 700;
+  position: relative;
+}
+
+.section-title h2::before {
+  content: "";
+  height: 4px;
+  width: 80px;
+  background-color: var(--skin-color);
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.section-title h2::after {
+  content: "";
+  height: 4px;
+  width: 40px;
+  background-color: var(--skin-color);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+}
+
+.text-section {
+  margin: 2rem 0 !important;
+}
+
+.heading-text {
+  font-size: 24px;
+  margin: 1.5rem 0;
+  font-weight: 700;
+  color: var(--text-black-900);
+}
+
+.my-para {
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--text-black-700);
+  margin: 1.5rem 0;
+  text-align: justify;
+}
+
+.shadow-dark {
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+.pad-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* ----- Media Query For Responsiveness ----- */
+@media (max-width: 992px) {
+  .main-header-para {
+    width: 100%;
+  }
+
+  .main-header-section-images .animation {
+    width: 60%;
+    border-radius: 50%;
+  }
+
+  .appointment-process-sub-div {
+    margin: 3rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .our-services-data {
+    margin-left: 1rem;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-header-section-images .animation {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .our-services .our-services-number {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .our-services .main-heading {
+    margin-top: 5rem;
+  }
+
+  .our-services img {
+    margin-top: 2rem;
+    height: 100%;
+  }
+}
