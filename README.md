@@ -51,5 +51,5 @@ Contributions are welcome! Feel free to fork the repo, make improvements, and su
 This project is licensed under the **[MIT License](LICENSE)**. 📄
 
 ---
-🔗 **Connect with me:** [GitHub](https://github.com/HARIOM317) | [LinkedIn](https://linkedin.com/hariom-singh-mewada) | [Portfolio](https://hariom317.github.io/Hariom-Singh-Rajput-Portfolio/)
+🔗 **Connect with me:** [GitHub](https://github.com/HARIOM317) | [LinkedIn](https://linkedin.com/in/hariom-singh-mewada) | [Portfolio](https://hariom317.github.io/Hariom-Singh-Rajput-Portfolio/)
 
